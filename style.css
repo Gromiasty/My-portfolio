@@ -1,1 +1,32 @@
+/* Resetowanie styli i ogólne formatowanie */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
 
+/* Styl nagłówka */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Styl sekcji "O Mnie" */
+.about-me {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Styl nagłówka sekcji */
+.about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Styl treści sekcji */
+.about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
